@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/nav_recipesFragment">
+
+    <fragment
+        android:id="@+id/nav_recipesFragment"
+        android:name="com.ramawidi.ghoresepmakanan.view.fragments.RecipesFragment"
+        android:label="Recipes"
+        tools:layout="@layout/fragment_recipes" >
+        <action
+            android:id="@+id/action_nav_recipesFragment_to_bottomSheetFragment"
+            app:destination="@id/nav_bottomSheetFragment" />
+        <argument
+            android:name="backFromBottomSheet"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_nav_recipesFragment_to_nav_detailsActivity"
+            app:destination="@id/nav_detailsActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_favRecipesFragment"
+        android:name="com.ramawidi.ghoresepmakanan.view.fragments.FavRecipesFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_fav_recipes" >
+        <action
+            android:id="@+id/action_nav_favRecipesFragment_to_nav_detailsActivity"
+            app:destination="@id/nav_detailsActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_foodJokeFragment"
+        android:name="com.ramawidi.ghoresepmakanan.view.fragments.FoodJokeFragment"
+        android:label="Food joke"
+        tools:layout="@layout/fragment_food_joke" />
+
+    <dialog
+        android:id="@+id/nav_bottomSheetFragment"
+        android:name="com.ramawidi.ghoresepmakanan.view.fragments.BottomSheetFragment"
+        android:label="fragment_bottom_sheet"
+        tools:layout="@layout/fragment_bottom_sheet" >
+        <action
+            android:id="@+id/action_bottomSheetFragment_to_nav_recipesFragment"
+            app:destination="@id/nav_recipesFragment"
+            app:popUpTo="@id/nav_recipesFragment"
+            app:popUpToInclusive="true" />
+    </dialog>
+
+    <activity
+        android:id="@+id/nav_detailsActivity"
+        android:name="com.ramawidi.ghoresepmakanan.view.activities.DetailsActivity"
+        android:label="Details"
+        tools:layout="@layout/activity_details">
+        <argument
+            android:name="resultRecipe"
+            app:argType="com.ramawidi.ghoresepmakanan.data.models.ResultRecipe" />
+    </activity>
+
+</navigation>

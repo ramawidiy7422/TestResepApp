@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GhoResepMakanan" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <style name="Theme.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/secondary_color</item>
+        <item name="colorOnPrimary">@color/green</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/button_color_bg</item>
+        <item name="colorSecondaryVariant">@color/button_color_bg</item>
+        <item name="colorOnSecondary">@color/dark_gray</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/secondary_color</item>
+    </style>
+    <!-- Theme for Chips -->
+    <style name="CustomChipTheme" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipBackgroundColor">@color/chip_background</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+        <item name="checkedIconTint">@color/chip_text_color</item>
+    </style>
+    <!-- Theme for Toolbar -->
+    <style name="CustomToolbarTheme" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+        <!-- This attribute is used by title -->
+        <item name="android:textColorPrimary">@color/title_color</item>
+        <!-- This attribute is used by navigation icon and overflow icon -->
+        <item name="colorOnPrimary">@color/title_color</item>
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/title_color</item>
+        <!-- Customize color of background -->
+        <item name="android:background">@color/toolbar_bg_color</item>
+    </style>
+</resources>

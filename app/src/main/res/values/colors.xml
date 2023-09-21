@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#FFf4f4f8</color>
+    <color name="medium_gray">#80D1D1D1</color>
+    <color name="dark_gray">#454547</color>
+    <color name="red">#FFfe4a49</color>
+    <color name="yellow">#F4C640</color>
+    <color name="green">#FF009688</color>
+    <color name="primary_color">#5939AC</color>
+    <color name="secondary_color">#674FA3</color>
+    <color name="button_color_bg">#F3EDF7</color>
+    <color name="viewpage_unselected">#8874a3</color>
+    <color name="toolbar_bg_color">#F3EDF7</color>
+    <color name="title_color">#151B20</color>
+    <color name="sheet_title_color">#151B20</color>
+    <color name="text_color">#454547</color>
+    <color name="layout_bg_color">@color/light_gray</color>
+    <color name="details_bg_color">@color/light_gray</color>
+    <color name="bottom_sheet_bg">@color/white</color>
+    <color name="placeholder_layout_bg">@color/dark_gray</color>
+    <color name="alert_dialog_bg">@color/white</color>
+    // Chip colors
+    <color name="checkedChipBackground">@color/button_color_bg</color>
+    <color name="chipBackground">#FFf4f4f8</color>
+    <color name="checkedChipText">#6200EA</color>
+    <color name="chipTextColor">#151B20</color>
+</resources>

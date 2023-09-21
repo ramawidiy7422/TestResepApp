@@ -1,0 +1,31 @@
+    <resources>
+    <string name="app_name">GhoResepMakanan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="diet_type">diet type</string>
+    <string name="meal_type">meal type</string>
+    <string name="main_course">main course</string>
+    <string name="side_dish">side dish</string>
+    <string name="dessert">dessert</string>
+    <string name="appetizer">appetizer</string>
+    <string name="salad">salad</string>
+    <string name="bread">bread</string>
+    <string name="breakfast">breakfast</string>
+    <string name="soup">soup</string>
+    <string name="sauce">sauce</string>
+    <string name="marinade">marinade</string>
+    <string name="finger_food">finger_food</string>
+    <string name="snack">snack</string>
+    <string name="drink">drink</string>
+        <string name="gluten_free">gluten free</string>
+        <string name="ketogenic">ketogenic</string>
+        <string name="vegetarian">vegetarian</string>
+        <string name="vegan">vegan</string>
+        <string name="pescetarian">pescetarian</string>
+        <string name="paleo">paleo</string>
+        <string name="primal">primal</string>
+        <string name="whole30">whole30</string>
+        <string name="beverage">beverage</string>
+        <string name="alert_message_title">Confirm delete</string>
+        <string name="alert_message_delete_all">Are you sure to delete all food recipes?</string>
+    </resources>
